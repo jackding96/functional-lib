@@ -1,6 +1,5 @@
 function once(func) {
-    let called = false;
-    let memo; 
+    let called, memo; 
 
     return function() {
         if (called) { return memo;}
